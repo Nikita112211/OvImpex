@@ -1,0 +1,35 @@
+.contact-page{
+    padding:80px 5%;
+    background:#f7f7f7;
+}
+
+.contact-title{
+    text-align:center;
+    font-size:42px;
+    color:#004f32;
+    margin-bottom:50px;
+}
+
+.contact-info-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.contact-item{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.contact-item i{
+    font-size:40px;
+    color:#004f32;
+    margin-bottom:15px;
+}
+
+.contact-item h3{
+    margin-bottom:10px;
+}
