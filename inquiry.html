@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Products - OV Impex</title>
+    <title>Inquiry - OV Impex</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -95,7 +95,7 @@
             </div>
 
             <nav class="nav-right" aria-label="Primary Right Navigation">
-                <a href="#">INQUIRY</a>
+                <a href="inquiry.html" class="active">INQUIRY</a>
                 <a href="blogs.html">BLOG</a>
                 <a href="contact.html">CONTACT</a>
                 <a href="#" class="btn-brochure">BROCHURE</a>
@@ -103,101 +103,81 @@
         </div>
     </header>
 
-    <!-- ===== PAGE BANNER ===== -->
-    <section class="page-banner">
-        <h1>Our Products</h1>
-        <p>Premium Quality Indian Spices</p>
+    <!-- ===== INQUIRY INFO BOX ===== -->
+    <section class="contact-page">
+        <div class="container">
+
+            <h1 class="contact-title">Business Inquiry</h1>
+
+            <div class="contact-info-box">
+
+                <div class="contact-item">
+                    <i class="fas fa-box-open"></i>
+                    <h3>Bulk Ordering</h3>
+                    <p>Get custom packaging &amp; wholesale quotes for worldwide shipments.</p>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Export Quality</h3>
+                    <p>100% certified lab-tested spices meeting international standards.</p>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-headset"></i>
+                    <h3>Direct Sales</h3>
+                    <p>Connect with our expert team for fast commercial quotations.</p>
+                </div>
+
+            </div>
+
+        </div>
     </section>
 
-    <!-- ===== PRODUCTS SECTION ===== -->
-    <section class="products-section">
-        <div class="product-grid">
+    <!-- ===== MAP + INQUIRY FORM ===== -->
+    <section class="contact-section">
+        <div class="container contact-split-container">
 
-            <div class="product-card">
-                <a href="product-details.html?product=Coriander&image=images/coriander.webp">
-                    <img src="images/coriander.webp" alt="Coriander">
-                    <h3>Coriander</h3>
-                    <p>Whole Spices</p>
-                </a>
+            <div class="contact-map-panel">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.590111162464!2d72.50645087603395!3d23.038829315748884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84b6f125a587%3A0xcd30e844a4eb23b0!2sOV%20Impex!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="OV Impex Office Location Map">
+                </iframe>
             </div>
+            <div class="contact-form-panel">
+                <h2>Request a Quote</h2>
 
-            <div class="product-card">
-                <a href="product-details.html?product=Coriander Powder&image=images/coriander powder.webp">
-                    <img src="images/coriander powder.webp" alt="Coriander Powder">
-                    <h3>Coriander Powder</h3>
-                    <p>Pure Spice Powders</p>
-                </a>
-            </div>
+                <form action="#" method="POST" class="interactive-form">
 
-            <div class="product-card">
-                <a href="product-details.html?product=Cumin&image=images/cumin.jfif">
-                    <img src="images/cumin.jfif" alt="Cumin">
-                    <h3>Cumin</h3>
-                    <p>Whole Spices</p>
-                </a>
-            </div>
+                    <div class="form-row">
+                        <input type="text" placeholder="Full Name" required aria-label="Full Name">
+                        <input type="text" placeholder="Company Name" aria-label="Company Name">
+                    </div>
 
-            <div class="product-card">
-                <a href="product-details.html?product=Curry Powder&image=images/curry powder.jfif">
-                    <img src="images/curry powder.jfif" alt="Curry Powder">
-                    <h3>Curry Powder</h3>
-                    <p>Seasoning &amp; Blends</p>
-                </a>
-            </div>
+                    <div class="form-row">
+                        <input type="email" placeholder="Business Email" required aria-label="Business Email">
+                        <input type="tel" placeholder="Phone / WhatsApp" required aria-label="Phone Number">
+                    </div>
 
-            <div class="product-card">
-                <a href="product-details.html?product=Garam Masala&image=images/garam masala.jfif">
-                    <img src="images/garam masala.jfif" alt="Garam Masala">
-                    <h3>Garam Masala</h3>
-                    <p>Seasoning &amp; Blends</p>
-                </a>
-            </div>
+                    <div class="form-row">
+                        <input type="text" placeholder="Product Required (e.g. Turmeric, Chilli)" required aria-label="Product Required">
+                        <input type="text" placeholder="Estimated Quantity (e.g. 5 Metric Tons)" aria-label="Estimated Quantity">
+                    </div>
 
-            <div class="product-card">
-                <a href="product-details.html?product=Kitchen King&image=images/kitchen king.jfif">
-                    <img src="images/kitchen king.jfif" alt="Kitchen King">
-                    <h3>Kitchen King</h3>
-                    <p>Seasoning &amp; Blends</p>
-                </a>
-            </div>
+                    <textarea rows="5" placeholder="Specify requirements (e.g., Grade, Packaging, Destination Port)..." required aria-label="Requirement Details"></textarea>
 
-            <div class="product-card">
-                <a href="product-details.html?product=Red Chilli&image=images/red chilli.jfif">
-                    <img src="images/red chilli.jfif" alt="Red Chilli">
-                    <h3>Red Chilli</h3>
-                    <p>Whole Spices</p>
-                </a>
-            </div>
+                    <button type="submit" class="btn-form-submit">SUBMIT QUOTE REQUEST</button>
 
-            <div class="product-card">
-                <a href="product-details.html?product=Red Chilli Powder&image=images/red chilli powder.jfif">
-                    <img src="images/red chilli powder.jfif" alt="Red Chilli Powder">
-                    <h3>Red Chilli Powder</h3>
-                    <p>Pure Spice Powders</p>
-                </a>
-            </div>
-
-            <div class="product-card">
-                <a href="product-details.html?product=Turmeric&image=images/turmeric.jfif">
-                    <img src="images/turmeric.jfif" alt="Turmeric">
-                    <h3>Turmeric</h3>
-                    <p>Whole Spices</p>
-                </a>
-            </div>
-
-            <div class="product-card">
-                <a href="product-details.html?product=Turmeric Powder&image=images/turmeric powder.jfif">
-                    <img src="images/turmeric powder.jfif" alt="Turmeric Powder">
-                    <h3>Turmeric Powder</h3>
-                    <p>Pure Spice Powders</p>
-                </a>
+                </form>
             </div>
 
         </div>
     </section>
 
     <!-- ===== FOOTER ===== -->
-   <footer class="global-footer">
+    <footer class="global-footer">
         <div class="container footer-grid">
             <div class="footer-column brand-column">
                 <div class="logo-wrap footer-logo">
@@ -221,7 +201,7 @@
                     <li><a href="#"><i class="fas fa-angle-right"></i> Crop Harvest Chart</a></li>
                     <li><a href="#"><i class="fas fa-angle-right"></i> Global Export Presence</a></li>
                     <li><a href="#"><i class="fas fa-angle-right"></i> Latest Blog Posts</a></li>
-                    <li><a href="#"><i class="fas fa-angle-right"></i> Request a Quote</a></li>
+                    <li><a href="inquiry.html"><i class="fas fa-angle-right"></i> Request a Quote</a></li>
                 </ul>
             </div>
             <div class="footer-column links-column">
@@ -249,14 +229,13 @@
         </div>
     </footer>
 
-
     <!-- WhatsApp Float Button -->
     <a href="https://wa.me/917249530667" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
 
     <script>
-        // ===== Mega Menu Dropdown =====
+        // Mega Menu Dropdown
         const wrapper = document.getElementById('productsDropdown');
         const trigger = wrapper.querySelector('.dropdown-trigger');
 
